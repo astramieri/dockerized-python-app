@@ -12,16 +12,21 @@ A simple Python Flask app dockerization.
 
 ## Build the image
 
-    > docker build -t <image_name> .
+    $> cd app
+    $> docker build -t <image_name> .
 
 ## List all the images
 
-    > docker images
+    $> docker images
 
 ## List all currently running Docker containers
 
-    > docker ps
+    $> docker ps
 
 ## Run the docker image
 
-    > docker run -d -p 5000:5000 <image_name>
+    $> docker run -d -p 5000:5000 <image_name>
+
+## Test the Python App
+
+    http://localhost:5000/
