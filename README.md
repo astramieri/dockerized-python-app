@@ -1,2 +1,3 @@
-# dockerized-python-app
-Dockerized Python App 
+# Dockerized Python App 
+
+Dockerized Python App.
